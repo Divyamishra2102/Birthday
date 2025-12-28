@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Somu Putar! 🎉</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <audio id="birthdayMusic" loop>
+        <source src="music/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <button class="music-control" id="musicToggle">🔊</button>
+    
+    <div class="container">
+        <h1 class="title">🎉HAPPY BIRTHDAY SOMU PUTAR!🎉</h1>
+        <p class="subtitle">Let's Celebrate Your Special Day!</p>
+        <p class="Candle">Blow A Candle🕯️</p>
+        
+        <div class="cake-container" onclick="blowCandles()">
+            🎂
+        </div>
+
+        <div class="navigation">
+            <a href="gallery.html" class="nav-btn">📸 View Gallery</a>
+            <a href="message.html" class="nav-btn">💌 Sweet Message</a>
+            <a href="surprise.html" class="nav-btn">🎁 Special Surprise</a>
+        </div>
+    </div>
+    <script src="music.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💌 Birthday Message</title>
+    <link rel="stylesheet" href="message.css">
+</head>
+<body>
+    <audio id="birthdayMusic" loop>
+        <source src="music/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <button class="music-control" id="musicToggle">🔊</button>
+    <div class="container">
+        <div class="message-box">
+            <h1 class="title">💌 Special Birthday Message 💌</h1>
+            
+            <div class="typewriter-container">
+                <div class="typewriter" id="typewriter">
+                    <span class="cursor" id="cursor"></span>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <a href="index.html" class="nav-btn">🏠 Home</a>
+                <a href="gallery.html" class="nav-btn">📸 Gallery</a>
+                <a href="surprise.html" class="nav-btn">🎁 Surprise</a>
+            </div>
+        </div>
+    </div>
+    <script src="music.js"></script>
+<script src="message.js"></script>
+</body>
+</html>
